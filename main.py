@@ -14,6 +14,7 @@ def home():
         <body>
             <h1>Hello World!</h1>
             <p>My first Google App Engine application.</p>
+            <p>My application is automatically deployed using Google Cloud Build.</p>
         </body>
     </html>
     """
