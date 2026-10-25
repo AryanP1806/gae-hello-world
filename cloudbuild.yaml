@@ -1,0 +1,13 @@
+
+steps:
+  - name: gcr.io/google.com/cloudsdktool/google-cloud-cli:stable
+    entrypoint: gcloud
+    args:
+      - app
+      - deploy
+      - app.yaml
+      - --project=YOUR_PROJECT_ID
+      - --quiet
+
+options:
+  logging: CLOUD_LOGGING_ONLY
